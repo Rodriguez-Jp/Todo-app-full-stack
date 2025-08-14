@@ -21,13 +21,16 @@ namespace TodoAppFS.Endpoints
         )
             ];
 
-        public static WebApplication MapTasksEndpoints (this WebApplication app)
+        public static RouteGroupBuilder MapTasksEndpoints (this WebApplication app)
         {
+            var tasksGroup = app.MapGroup("tasks").WithParameterValidation();
+
+
             // GET /tasks
-            app.MapGet("/tasks", () => tasks);
+            tasksGroup.MapGet("/", () => tasks);
 
             // GET by ID
-            app.MapGet("/tasks/{id}", (int id) =>
+            tasksGroup.MapGet("/{id}", (int id) =>
             {
                 var task = tasks.Find(task => task.Id == id);
 
@@ -37,7 +40,7 @@ namespace TodoAppFS.Endpoints
             }).WithName(GetTaskEndpointName);
 
             //POST create a new tasks
-            app.MapPost("/tasks", (CreateTaskDTO newTask) =>
+            tasksGroup.MapPost("/", (CreateTaskDTO newTask) =>
             {
                 TaskDTO task = new
                 (
@@ -52,7 +55,7 @@ namespace TodoAppFS.Endpoints
             });
 
             //PUT for update tasks
-            app.MapPut("/tasks/{id}", (int id, UpdateTaskDTO taskUpdated) =>
+            tasksGroup.MapPut("/{id}", (int id, UpdateTaskDTO taskUpdated) =>
             {
 
                 var index = tasks.FindIndex(task => task.Id == id);
@@ -71,14 +74,14 @@ namespace TodoAppFS.Endpoints
             });
 
             //DELETE For deleting tasks
-            app.MapDelete("/tasks/{id}", (int id) =>
+            tasksGroup.MapDelete("/{id}", (int id) =>
             {
                 tasks.RemoveAll(task => task.Id == id);
 
                 return Results.NoContent();
             });
 
-            return app;
+            return tasksGroup;
         }
     }
 }

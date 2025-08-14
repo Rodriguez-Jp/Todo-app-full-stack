@@ -1,7 +1,9 @@
-﻿namespace TodoAppFS.DTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace TodoAppFS.DTOs
 {
     public record class UpdateTaskDTO(
-        string Name,
-        bool IsDone = false
+        [Required][StringLength(30)] string Name,
+        [Required] bool IsDone
         );
 }
