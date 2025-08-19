@@ -1,45 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\",
+  "WorkspaceRootPath": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\jp\\desktop\\c#\\projects\\todo-app-full-stack\\todoappfs\\data\\migrations\\20250813202520_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\data\\migrations\\20250813202520_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\jp\\desktop\\c#\\projects\\todo-app-full-stack\\todoappfs\\data\\migrations\\taskscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\data\\migrations\\taskscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\jp\\desktop\\c#\\projects\\todo-app-full-stack\\todoappfs\\entities\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\entities\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\jp\\desktop\\c#\\projects\\todo-app-full-stack\\todoappfs\\data\\taskscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\data\\taskscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\jp\\desktop\\c#\\projects\\todo-app-full-stack\\todoappfs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\jp\\desktop\\c#\\projects\\todo-app-full-stack\\todoappfs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\jp\\desktop\\c#\\projects\\todo-app-full-stack\\todoappfs\\endpoints\\tasksendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoappfs\\todoappfs\\endpoints\\tasksendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\endpoints\\tasksendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\jp\\desktop\\c#\\projects\\todo-app-full-stack\\todoappfs\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoappfs\\todoappfs\\mapping\\taskmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\mapping\\taskmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\jp\\desktop\\c#\\projects\\todo-app-full-stack\\todoappfs\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoappfs\\todoappfs\\entities\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\entities\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoappfs\\todoappfs\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\jp\\desktop\\c#\\projects\\todo-app-full-stack\\todoappfs\\dtos\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoappfs\\todoappfs\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoappfs\\todoappfs\\data\\taskscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\data\\taskscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|c:\\users\\juanr\\desktop\\c#\\projects\\todoappfs\\todoappfs\\dtos\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D3F211-E1B0-4991-9599-67506CA96DA4}|TodoAppFS\\TodoAppFS.csproj|solutionrelative:todoappfs\\dtos\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,132 +38,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TasksContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\Data\\Migrations\\TasksContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "TodoAppFS\\Data\\Migrations\\TasksContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\Data\\Migrations\\TasksContextModelSnapshot.cs",
-              "RelativeToolTip": "TodoAppFS\\Data\\Migrations\\TasksContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "TaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\DTOs\\TaskDTO.cs",
+              "RelativeDocumentMoniker": "TodoAppFS\\DTOs\\TaskDTO.cs",
+              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\DTOs\\TaskDTO.cs",
+              "RelativeToolTip": "TodoAppFS\\DTOs\\TaskDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T20:25:53.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250813202520_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\Data\\Migrations\\20250813202520_InitialCreate.cs",
-              "RelativeDocumentMoniker": "TodoAppFS\\Data\\Migrations\\20250813202520_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\Data\\Migrations\\20250813202520_InitialCreate.cs",
-              "RelativeToolTip": "TodoAppFS\\Data\\Migrations\\20250813202520_InitialCreate.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T20:25:26.66Z",
+              "WhenOpened": "2025-08-12T15:05:11.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\appsettings.json",
-              "RelativeDocumentMoniker": "TodoAppFS\\appsettings.json",
-              "ToolTip": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\appsettings.json",
-              "RelativeToolTip": "TodoAppFS\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-13T20:04:02.159Z"
+              "Title": "TasksContext.cs",
+              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\Data\\TasksContext.cs",
+              "RelativeDocumentMoniker": "TodoAppFS\\Data\\TasksContext.cs",
+              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\Data\\TasksContext.cs",
+              "RelativeToolTip": "TodoAppFS\\Data\\TasksContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T19:48:18.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateTaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\DTOs\\UpdateTaskDTO.cs",
+              "RelativeDocumentMoniker": "TodoAppFS\\DTOs\\UpdateTaskDTO.cs",
+              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\DTOs\\UpdateTaskDTO.cs",
+              "RelativeToolTip": "TodoAppFS\\DTOs\\UpdateTaskDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T00:22:46.201Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TasksContext.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\Data\\TasksContext.cs",
-              "RelativeDocumentMoniker": "TodoAppFS\\Data\\TasksContext.cs",
-              "ToolTip": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\Data\\TasksContext.cs",
-              "RelativeToolTip": "TodoAppFS\\Data\\TasksContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "CreateTaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\DTOs\\CreateTaskDTO.cs",
+              "RelativeDocumentMoniker": "TodoAppFS\\DTOs\\CreateTaskDTO.cs",
+              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\DTOs\\CreateTaskDTO.cs",
+              "RelativeToolTip": "TodoAppFS\\DTOs\\CreateTaskDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T19:48:18.051Z"
+              "WhenOpened": "2025-08-12T15:35:40.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "TaskEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\Entities\\TaskEntity.cs",
+              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\Entities\\TaskEntity.cs",
               "RelativeDocumentMoniker": "TodoAppFS\\Entities\\TaskEntity.cs",
-              "ToolTip": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\Entities\\TaskEntity.cs",
+              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\Entities\\TaskEntity.cs",
               "RelativeToolTip": "TodoAppFS\\Entities\\TaskEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T15:27:12.619Z"
+              "WhenOpened": "2025-08-13T15:27:12.619Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "TaskMapping.cs",
+              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\Mapping\\TaskMapping.cs",
+              "RelativeDocumentMoniker": "TodoAppFS\\Mapping\\TaskMapping.cs",
+              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\Mapping\\TaskMapping.cs",
+              "RelativeToolTip": "TodoAppFS\\Mapping\\TaskMapping.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T01:19:50.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TasksEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\Endpoints\\TasksEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\Endpoints\\TasksEndpoints.cs",
               "RelativeDocumentMoniker": "TodoAppFS\\Endpoints\\TasksEndpoints.cs",
-              "ToolTip": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\Endpoints\\TasksEndpoints.cs",
+              "ToolTip": "C:\\Users\\JuanR\\Desktop\\C#\\Projects\\TodoAppFS\\TodoAppFS\\Endpoints\\TasksEndpoints.cs",
               "RelativeToolTip": "TodoAppFS\\Endpoints\\TasksEndpoints.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T14:16:03.96Z"
+              "WhenOpened": "2025-08-13T14:16:03.96Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\Program.cs",
-              "RelativeDocumentMoniker": "TodoAppFS\\Program.cs",
-              "ToolTip": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\Program.cs",
-              "RelativeToolTip": "TodoAppFS\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T14:21:34.289Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UpdateTaskDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\DTOs\\UpdateTaskDTO.cs",
-              "RelativeDocumentMoniker": "TodoAppFS\\DTOs\\UpdateTaskDTO.cs",
-              "ToolTip": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\DTOs\\UpdateTaskDTO.cs",
-              "RelativeToolTip": "TodoAppFS\\DTOs\\UpdateTaskDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T00:22:46.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TaskDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\DTOs\\TaskDTO.cs",
-              "RelativeDocumentMoniker": "TodoAppFS\\DTOs\\TaskDTO.cs",
-              "ToolTip": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\DTOs\\TaskDTO.cs",
-              "RelativeToolTip": "TodoAppFS\\DTOs\\TaskDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:05:11.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateTaskDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\DTOs\\CreateTaskDTO.cs",
-              "RelativeDocumentMoniker": "TodoAppFS\\DTOs\\CreateTaskDTO.cs",
-              "ToolTip": "C:\\Users\\Jp\\Desktop\\C#\\Projects\\Todo-app-full-stack\\TodoAppFS\\DTOs\\CreateTaskDTO.cs",
-              "RelativeToolTip": "TodoAppFS\\DTOs\\CreateTaskDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T15:35:40.417Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

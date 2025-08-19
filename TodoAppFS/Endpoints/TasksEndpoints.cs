@@ -1,4 +1,7 @@
-﻿using TodoAppFS.DTOs;
+﻿using TodoAppFS.Data;
+using TodoAppFS.Entities;
+using TodoAppFS.DTOs;
+using TodoAppFS.Mapping;
 
 namespace TodoAppFS.Endpoints
 {
@@ -30,28 +33,28 @@ namespace TodoAppFS.Endpoints
             tasksGroup.MapGet("/", () => tasks);
 
             // GET by ID
-            tasksGroup.MapGet("/{id}", (int id) =>
+            tasksGroup.MapGet("/{id}", (int id, TasksContext tasksContext) =>
             {
-                var task = tasks.Find(task => task.Id == id);
+                //var task = tasks.Find(task => task.Id == id);
 
+                TaskEntity? task = tasksContext.Tasks.Find(id);
 
-                return task is null ? Results.NotFound() : Results.Ok(task);
+                return task is null ? Results.NotFound() : Results.Ok(task.ToDTO());
 
             }).WithName(GetTaskEndpointName);
 
             //POST create a new tasks
-            tasksGroup.MapPost("/", (CreateTaskDTO newTask) =>
+            tasksGroup.MapPost("/", (CreateTaskDTO newTask, TasksContext tasksContext) =>
             {
-                TaskDTO task = new
-                (
-                    tasks.Count + 1,
-                    newTask.Name,
-                    newTask.IsDone
-                );
 
-                tasks.Add(task);
+                TaskEntity task = newTask.ToEntity();
 
-                return Results.CreatedAtRoute(GetTaskEndpointName, new { id = task.Id }, task);
+                tasksContext.Tasks.Add(task);
+                tasksContext.SaveChanges();
+
+                TaskDTO taskDTO = task.ToDTO();
+
+                return Results.CreatedAtRoute(GetTaskEndpointName, new { id = task.Id }, taskDTO);
             });
 
             //PUT for update tasks

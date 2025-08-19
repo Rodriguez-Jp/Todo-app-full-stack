@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoAppFS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c267b8814e177c1fe340119bcdfc3e8514a115c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2782c6a0f9ec29423c32550c956e69cfb80f7e59")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoAppFS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoAppFS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
