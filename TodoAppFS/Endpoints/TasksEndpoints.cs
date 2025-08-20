@@ -2,6 +2,7 @@
 using TodoAppFS.Entities;
 using TodoAppFS.DTOs;
 using TodoAppFS.Mapping;
+using Microsoft.EntityFrameworkCore;
 
 namespace TodoAppFS.Endpoints
 {
@@ -30,7 +31,10 @@ namespace TodoAppFS.Endpoints
 
 
             // GET /tasks
-            tasksGroup.MapGet("/", () => tasks);
+            tasksGroup.MapGet("/", (TasksContext tasksContext) => 
+            tasksContext.Tasks
+                        .Select(task => task.ToDTO())
+                        .AsNoTracking());
 
             // GET by ID
             tasksGroup.MapGet("/{id}", (int id, TasksContext tasksContext) =>
@@ -58,28 +62,37 @@ namespace TodoAppFS.Endpoints
             });
 
             //PUT for update tasks
-            tasksGroup.MapPut("/{id}", (int id, UpdateTaskDTO taskUpdated) =>
+            tasksGroup.MapPut("/{id}", (int id, UpdateTaskDTO taskUpdated, TasksContext tasksContext) =>
             {
 
-                var index = tasks.FindIndex(task => task.Id == id);
+                //var index = tasks.FindIndex(task => task.Id == id);
 
-                if (index == -1)
-                    return Results.NotFound();
+                TaskEntity? task = tasksContext.Tasks.Find(id);
 
-                tasks[index] = new TaskDTO(
-                    id,
-                    taskUpdated.Name,
-                    taskUpdated.IsDone
-                    );
+                task.Name = taskUpdated.Name;
+                task.IsDone = taskUpdated.IsDone;
+                   
+                if(task == null)
+                {
+                return Results.NotFound();
+                }
 
+                tasksContext.Entry(task)
+                .CurrentValues
+                .SetValues(taskUpdated.ToEntity(id));
+
+                tasksContext.SaveChanges();
+                
                 return Results.NoContent();
 
             });
 
             //DELETE For deleting tasks
-            tasksGroup.MapDelete("/{id}", (int id) =>
+            tasksGroup.MapDelete("/{id}", (int id, TasksContext tasksContext) =>
             {
-                tasks.RemoveAll(task => task.Id == id);
+                tasksContext.Tasks
+                            .Where(task => task.Id == id)
+                            .ExecuteDelete();
 
                 return Results.NoContent();
             });

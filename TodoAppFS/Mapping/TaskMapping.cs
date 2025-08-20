@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using System.Xml.Linq;
-using TodoAppFS.DTOs;
+﻿using TodoAppFS.DTOs;
 using TodoAppFS.Entities;
 
 namespace TodoAppFS.Mapping
@@ -16,6 +14,17 @@ namespace TodoAppFS.Mapping
                 IsDone = task.IsDone
             };
                 
+        }
+
+        public static TaskEntity ToEntity(this UpdateTaskDTO task, int id)
+        {
+            return new TaskEntity()
+            {
+                Id = id,
+                Name = task.Name,
+                IsDone = task.IsDone
+            };
+
         }
 
         public static TaskDTO ToDTO(this TaskEntity task)
